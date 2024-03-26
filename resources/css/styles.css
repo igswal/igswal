@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    background-color: #FAF9F6;  	/*offwhite*/
+    margin: 0;
+/*    padding: 0;*/
+}
+
+header {
+    background-color: #F9E471;  	/*gelb*/
+    color: #333; 			/*schwarzgrau*/
+    text-align: center;
+    padding: 2px 0 0 0;
+}
+
+nav {
+    font: sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {					/*nav anchor elements*/
+    color: #333;
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+}
+
+nav a:hover {				/*nav anchor hover*/
+    color: #FAF9F6;
+    background-color: lightgray;
+}
+
+img {
+  border-radius: 8px; 			/*leicht gerundete ecken*/
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+.weiss-bg{
+    background-color: #FAF9F6;  	/*offwhite*/
+    align-content: center;
+    justify-content: center;
+    margin: 0 0 0 0;
+    padding: 10 0 0 0;
+}
+
+.blau-bg {
+    background-color: #91BDAA;		/*helltürkis*/
+}
+
+main {
+    background-color: #91BDAA;		/*helltürkis*/
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: #333;		/*schwarzgrau*/
+    color: #FAF9F6;			/*offwhite*/
+    text-align: center;
+    padding: 10px 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+h1 {
+  text-align: center;
+  padding: 0 0 0.5em 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.word {
+  text-align: center;
+  margin: auto;
+  color: black;
+  font: 550 normal 1.7em "Arial";
+}
